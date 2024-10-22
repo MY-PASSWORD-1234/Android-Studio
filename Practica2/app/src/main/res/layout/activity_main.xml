@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/sin_t_tulo">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="Cocina los macarrones: Llena una olla grande con agua salada y llévala a ebullición. Cocina los macarrones según las instrucciones del paquete hasta que estén al dente. Escúrrelos y resérvalos.Prepara la salsa: Mientras los macarrones se cocinan, calienta el aceite de oliva en una sartén grande a fuego medio. Agrega la cebolla y sofríe hasta que esté suave y translúcida, unos 5 minutos. Añade el ajo y cocina por 1 minuto más.
+Añade el tomate: Incorpora el tomate triturado a la sartén con la cebolla y el ajo. Si el tomate está muy ácido, puedes agregar el azúcar. Cocina a fuego medio-bajo durante unos 10-15 minutos, removiendo ocasionalmente, hasta que la salsa espese un poco.
+Sazona la salsa: Agrega el orégano, la albahaca, sal y pimienta al gusto. Remueve bien y cocina por unos minutos más para que los sabores se integren.
+Mezcla los macarrones: Añade los macarrones cocidos a la salsa y mezcla bien para que se impregnen con el sabor.
+"       app:layout_constraintTop_toBottomOf="@id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/black"
+        android:text="Aqui Para Mas Informacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
