@@ -37,7 +37,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Thomas Alva Edison"
+                        android:text="@string/Titulo1"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginTop="8dp" />
@@ -45,14 +45,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Desarrolló muchos dispositivos en campos como la generación de energía eléctrica"
+                        android:text="@string/String1"
                         android:layout_marginTop="4dp" />
 
                     <Button
                         android:id="@+id/boton1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Wikipedia"
+                        android:text="@string/botonwiki"
                         android:layout_marginTop="8dp"
                         android:layout_gravity="right"
                         android:backgroundTint="@color/black"/>
@@ -83,7 +83,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lamborghini"
+                        android:text="@string/Titulo2"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginTop="8dp" />
@@ -91,7 +91,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Es un fabricante italiano de automóviles superdeportivos fundado en 1963 por Ferruccio Lamborghini"
+                        android:text="@string/String2"
                         android:layout_marginTop="4dp" />
 
                     <Button
@@ -100,7 +100,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:backgroundTint="#000000"
-                        android:text="Wikipedia"
+                        android:text="@string/botonwiki"
                         android:layout_gravity="right"/>
 
                 </LinearLayout>
@@ -129,7 +129,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Porsche"
+                        android:text="@string/Titulo3"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginTop="8dp" />
@@ -137,7 +137,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Es un fabricante de automóviles alemán especializado en automóviles deportivos de lujo de alta gama"
+                        android:text="@string/String3"
                         android:layout_marginTop="4dp" />
 
                     <Button
@@ -146,7 +146,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:backgroundTint="#000000"
-                        android:text="Wikipedia"
+                        android:text="@string/botonwiki"
                         android:layout_gravity="right"/>
 
                 </LinearLayout>
@@ -174,7 +174,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Marc Marquez"
+                        android:text="@string/Titulo4"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginTop="8dp" />
@@ -182,7 +182,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Es un piloto de motociclismo español que compite en MotoGP."
+                        android:text="@string/String4"
                         android:layout_marginTop="4dp" />
 
                     <Button
@@ -191,7 +191,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:backgroundTint="#000000"
-                        android:text="Wikipedia"
+                        android:text="@string/botonwiki"
                         android:layout_gravity="right"/>
 
                 </LinearLayout>

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Applicationv34</string>
+    <string name="String1">Desarrolló muchos dispositivos en campos como la generación de energía eléctrica</string>
+    <string name="String2">Es un fabricante italiano de automóviles superdeportivos fundado en 1963 por Ferruccio Lamborghini</string>
+    <string name="String3">Es un fabricante de automóviles alemán especializado en automóviles deportivos de lujo de alta gama</string>
+    <string name="String4">Es un piloto de motociclismo español que compite en MotoGP.</string>
+    <string name="Titulo1">Thomas Alva Edison</string>
+    <string name="Titulo2">Lamborghini</string>
+    <string name="Titulo3">Porsche</string>
+    <string name="Titulo4">Marc Marquez</string>
+    <string name="botonwiki">Wikipedia</string>
 </resources>
